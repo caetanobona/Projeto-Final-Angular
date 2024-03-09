@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  display: flex;
+  margin: 0;
+}
+
+form {
+  margin: 0;
+}
+
+input[type="submit"] {
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #dddddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead th,
+tbody td {
+  border : 1px solid #ddd;
+  padding: 5px;
+}
+
+thead th {
+  background-color: #eeeeee;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
